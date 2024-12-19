@@ -1,0 +1,25 @@
+<!-- templates/upload.html -->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload File for Summarization</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 50px; }
+        h1 { color: #333; }
+        form { margin-top: 20px; }
+        input[type="file"] { padding: 10px; }
+        input[type="submit"] { padding: 10px 20px; background-color: #4CAF50; border: none; color: white; cursor: pointer; }
+        input[type="submit"]:hover { background-color: #45a049; }
+    </style>
+</head>
+<body>
+    <h1>Upload PDF or Text File for Summarization</h1>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".pdf,.txt" required>
+        <br><br>
+        <input type="submit" value="Upload and Summarize">
+    </form>
+</body>
+</html>

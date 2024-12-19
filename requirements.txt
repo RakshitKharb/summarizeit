@@ -1,0 +1,9 @@
+Flask
+transformers
+torch
+PyPDF2
+pdfminer.six==20221105
+nltk
+gunicorn
+Werkzeug
+numpy<2.0
